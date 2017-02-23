@@ -1,23 +1,19 @@
-	#include <stdio.h>
-	int main () {
-	int numfun;
-	double  horastrabalhadas;
-	double valorhorastrabalhadas;
+#include<stdio.h>
+#include<stdlib.h>
 
+int main (){
 
-	scanf ("%d",&numfun);
+int num_fun,hor_tra;float val_hor_tra;
 
-	scanf ("%lf",&horastrabalhadas);
-	scanf ("%lf",&valorhorastrabalhadas);
-	
-	printf("NUMBER = %d ",numfun);
-	printf("SALARY = %.2lf",horastrabalhadas*valorhorastrabalhadas);
-	
-	return 0;
+scanf("%i",&num_fun);
+scanf("%i",&hor_tra);
+scanf("%f",&val_hor_tra);
 
+    printf("NUMBER = %i\n",num_fun);
+
+    printf("SALARY = U$ %.2f\n",hor_tra*val_hor_tra);
+
+return 0;
 }
-
-
-
 
 
