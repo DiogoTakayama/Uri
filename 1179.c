@@ -1,4 +1,4 @@
-//Falta complementar
+//Aceito
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -39,19 +39,33 @@ int main()
                 for (k=0; k<5; k++)
                 {
                     printf("impar[%d] = %d\n",k,impar[k]);
-                    QuantPar =0;
+                    QuantImp =0;
 
                 }
 
             }
 
         }
+        if (i==14){
+                 for (k=0; k<QuantImp; k++)
+                {
+                    printf("impar[%d] = %d\n",k,impar[k]);
+
+
+                }
+                 for (j=0; j<QuantPar; j++)
+                {
+                    printf("par[%d] = %d\n",j,par[j]);
+
+
+
+                }
+
+
+        }
 
 
     }
-
-
-
 
 
 
